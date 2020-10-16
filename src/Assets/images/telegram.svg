@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="21" cy="21" r="21"></circle>
+        <filter x="-13.1%" y="-10.7%" width="135.7%" height="135.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home_v2" transform="translate(-1290.000000, -5013.000000)">
+            <g id="Group-14" transform="translate(1292.000000, 5014.000000)">
+                <g id="Oval-10">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M8.40624837,21.5899273 L13.7059153,23.5654249 L15.7572113,30.1540153 C15.8884648,30.5759908 16.4051222,30.7319632 16.7480526,30.4519479 L19.7021765,28.0467414 C20.0118336,27.7947506 20.4528975,27.7821932 20.7765079,28.0168027 L26.1046949,31.8802786 C26.4715454,32.1465879 26.9912694,31.9458222 27.0832695,31.5030964 L30.9864513,12.7518731 C31.0868847,12.268259 30.6110908,11.8648134 30.1500168,12.0429145 L8.40003836,20.4227758 C7.86329432,20.629514 7.867971,21.3884725 8.40624837,21.5899273 Z M15.4266242,22.513817 L25.7841511,16.1426844 C25.970298,16.028519 26.1618116,16.2798972 26.0019614,16.427983 L17.4540002,24.3636637 C17.1535432,24.6429898 16.9597296,25.016803 16.9048362,25.4225457 L16.6136558,27.5776756 C16.5750924,27.8654244 16.1703685,27.8939849 16.0908651,27.615501 L14.9709936,23.6855627 C14.8427301,23.2373238 15.0296437,22.7585337 15.4266242,22.513817 Z" id="XMLID_497_" fill="#32AADE" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

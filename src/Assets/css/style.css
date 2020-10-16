@@ -1,0 +1,776 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Pro';
+    font-size: 16px;
+    color: #9EA8BB;
+
+}
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro'), url("../Fonts/sofia-pro-black.ttf") format('truetype');
+    src: local('Sofia Pro'), url("../Fonts/Sofia-Pro-Bold.ttf") format('truetype');
+    src: local('Sofia Pro'), url("../Fonts/Sofia-Pro-Light.ttf") format('truetype');
+    src: local('Sofia Pro'), url("../Fonts/Sofia-Pro-SemiBold.ttf") format('truetype');
+    src: local('Sofia Pro'), url("../Fonts/Sofia-Pro-Regular.ttf") format('truetype');
+}
+.topNavbar .navbar-brand img {
+    width: 115px;
+}
+.top_bg{
+    background: url("../images/Background_Shape_Header.svg") no-repeat ;
+    background-size: contain;
+
+}
+.heading, h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115%;
+    text-align: center;
+    color: #004080;
+    font-family: 'Sofia Pro';
+}
+.subHeading{
+    color: #00AEEF;
+    font-family: 'Sofia Pro';
+}
+p{
+    color: #9EA8BB ;
+    font-family: 'Sofia Pro';
+}
+strong, a, a:hover{
+    color: #00AEEF !important;
+    font-family: 'Sofia Pro';
+}
+
+.topNavbar .navbar {
+    background: none !important;
+}
+
+/*main section css*/
+
+.mainFeature {
+    padding: 0 0 10px 0;
+    z-index: 99;
+}
+
+
+/*.mainFeature::before{*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background: url("../images/Background-Shape-Content.svg");*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+
+
+/*}*/
+
+.bgbigImg{
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
+}
+.bgbigImg img {
+    width: 1200px;
+    height: 100%;
+}
+
+.balEth{
+    border: 1px solid #00AEEF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px 34px;
+    cursor: pointer;
+    position: relative;
+}
+.balEth:before {
+    content: "";
+    position: absolute;
+    left: 138px;
+    top: 26px;
+    border: 1px solid #00AEEF;
+    width: 26px;
+    height: 0;
+    transform: rotate(90deg);
+}
+.balEth:after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #21CC65;
+    border-radius: 50%;
+    top: 20px;
+    right: 21px;
+}
+.balEth span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #00AEEF;
+    font-family: 'Sofia Pro';
+    margin-right: 19px;
+    margin-left: 19px;
+
+}
+.featureStart{
+    background: #FFFFFF;
+    box-shadow: 6px 11px 40px rgba(72, 89, 125, 0.16995);
+    border-radius: 15px;
+    min-height: 335px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    z-index: 99;
+
+}
+.mainbody {
+    position: relative;
+    padding: 0px;
+}
+.featureStart h2{
+    margin-top: 30px;
+}
+
+.hiddenFeature{
+    display: none;
+}
+.featureStart:hover .hiddenFeature{
+    display: block;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    z-index: 1;
+}
+.featureStart:hover{
+    margin-top: -100px !important;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    position: absolute;
+    left: 0;
+}
+.hiddenFeature p{
+
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #9EA8BB;
+    margin-top: 12px;
+}
+.btns a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.socialIcons img {
+    width: 35px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+
+.btns .btn-primary {
+    color: #fff;
+    background-color: #00AEEF;
+    border-color: #00AEEF;
+    border: none !important;
+    padding: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 900 !important;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 210px;
+    height: 76px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.hiddenFeature h5{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #00AEEF;
+    margin-top: 20px;
+}
+
+/*Insurance page css*/
+.insuraceTitle h2{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 86px;
+    color: #004080;
+
+}
+.insuraceTitle p {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    color: #00AEEF;
+}
+.insuranceItem {
+    background: #FFFFFF;
+    box-shadow: 6px 11px 40px rgba(72, 89, 125, 0.16995);
+    border-radius: 15px;
+    padding: 25px 34px;
+    width: 300px;
+    min-height: 375px;
+    position: relative;
+}
+.iconArrrow {
+    content: "";
+    position: absolute;
+    left: 42%;
+    bottom: -26px;
+    background: white;
+    height: 50px;
+    width: 50px;
+    z-index: 11;
+    transform: rotate(45deg);
+}
+.insuranceItem img{
+    height: 100px;
+    width:100px;
+}
+.insuranceItem h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.insuranceItem p{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #9EA8BB;
+}
+.insuranceItem span{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 188%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #004080;
+    border: 1px solid #004080;
+    box-sizing: border-box;
+    border-radius: 24px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 2px 20px;
+
+
+}
+.buttonarea .btn-primary{
+    width: 210px;
+    height: 54px;
+    background: #00AEEF;
+    border-radius: 8px;
+
+}
+.buttonarea button a {
+    color: #fff !important;
+}
+.hidebtnn img {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+/*footer css*/
+.footerContent img {
+    width: 85px;
+    margin-left: 21px;
+}
+.footerBg{
+    background: url("../images/Background_Shape_Footer.svg") no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    height: 175px;
+}
+.footerMenu a {
+    color: #1A4669 !important;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footerArea {
+    /*margin-top: 120px;*/
+    /*background: #f7faff;*/
+    padding: 0px;
+}
+.footefixed{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/*modal css*/
+
+.modheader.modal-header span {
+    font-size: 45px;
+    outline: none !important;
+    margin-right: 30px;
+    color: #004080 !important;
+}
+.modalBodyText {
+    padding-bottom: 40px;
+}
+.modheader.modal-header {
+    border-bottom: 0 solid transparent !important;
+    font-size: 30px !important;
+}
+.modheader.modal-header {
+    padding: 0 !important;
+}
+.modalBodyText img {
+    width: 99px;
+}
+.btnarea .btn-primary{
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #00AEEF;
+    border-radius: 8px;
+    width: 236px;
+    height: 54px;
+    text-transform: uppercase;
+    border:none;
+    margin: 5px;
+}
+
+.btnarea .btn-primary.sgbtn{
+    width: 218px;
+    height: 54px;
+}
+.modal-content {
+    border-radius: 15px;
+    outline: none;
+}
+
+/*zom eth*/
+.hidebtnn .btn-primary {
+    width: 144px;
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+.hidebtnn span {
+    border-radius: 8px;
+    height: 52px;
+    display: inline-block;
+    line-height: 39px;
+    border: 1px solid #00AEEF;
+    color: #00AEEF;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.depositeZom {
+    box-shadow: 6px 11px 40px rgba(72, 89, 125, 0.16995);
+    border-radius: 15px;
+    height: 260px;
+}
+.depositeZom h2{
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.inputbtn {
+    background: #FAFCFD;
+    border: 1px solid #DBE4EB;
+    box-sizing: border-box;
+    border-radius: 7px;
+    height: 54px;
+    width: 425px;
+    margin-right: 20px;
+    padding: 0 30px;
+    color: #004080;
+    outline: none;
+    font-size: 22px;
+}
+.inputbtn:focus{
+    outline: none;
+}
+.inputareaa .btn-primary {
+    margin-top: -7px;
+    padding: 13px 17px;
+}
+.smallValue {
+    margin-left: 77px;
+    font-family: 'Sofia Pro';
+}
+.closeBtn{
+    text-align: right;
+    color: #004080;
+    font-size: 20px;
+    cursor: pointer;
+}
+.smallValue {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 6px;
+}
+.inputareaa .btn-primary {
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+.inputareaa{
+    position: relative;
+}
+.max_value {
+    position: absolute;
+    left: 64%;
+    margin-top: -41px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #00AEEF;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.modheader button:focus {
+    outline: none;
+}
+.modalBodyText h2 {
+    margin-bottom: 16px;
+}
+.modalBodyText p {
+    font-size: 20px;
+}
+.top_margin{
+    margin-top: 140px;
+}
+
+/*responsive css*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .bgbigImg {
+        display: none;
+    }
+    .featureStart img {
+        width: 75px;
+    }
+    .featureStart h2 {
+        margin-top: 1px;
+        font-size: 16px;
+    }
+    .featureStart {
+        min-height: 200px;
+
+    }
+    .top_bg {
+        background: none;
+    }
+    .footerBg {
+        background: none;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .balEth span {
+        font-size: 11px !important;
+    }
+    .balEth:before {
+        left: 115px !important;
+    }
+    .balEth:after {
+        top: 25px;
+        right: 30px;
+    }
+    .mainFeature {
+        padding: 0 0;
+    }
+    .footefixed {
+        position: relative;
+    }
+    .footerContent {
+        text-align: center;
+    }
+    .footerMenu a {
+        margin-right: 9px;
+        margin-left: 9px;
+    }
+    .footersocial {
+        text-align: center !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bgbigImg {
+        display: none;
+    }
+    .mainbody {
+        padding: 0;
+    }
+    .topNavbar .navbar-brand img {
+        width: 96px;
+    }
+    .topNavbar {
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.04);
+        margin-bottom: 40px;
+    }
+    .hiddenFeature {
+        display: block;
+    }
+    .featureStart {
+        border-radius: 32px;
+        margin-bottom: 30px !important;
+        padding: 30px 18px;
+    }
+    .insuraceTitle h2 {
+        font-size: 46px;
+    }
+    .insuraceTitle p {
+        font-family: 'Sofia Pro';
+        font-size: 34px;
+    }
+    .insuranceItem {
+        border-radius: 32px;
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+    .insuranceItem img {
+        height: 128px;
+        width: 128px;
+    }
+    .insuranceItem h2 {
+        font-size: 40px;
+    }
+    .insuranceItem p {
+        font-size: 20px;
+    }
+    .socialIcons img {
+        width: 65px !important;
+    }
+    .featureStart:hover {
+        margin-top: 0;
+        position: relative;
+    }
+    .top_bg {
+         background: none;
+     }
+
+    .footerBg {
+        background: none;
+    }
+    .inputbtn {
+        width: 170px;
+        margin-right: 8px;
+        font-size: 14px;
+        padding: 0 14px;
+    }
+    .depositeZom h2 {
+        font-size: 20px;
+    }
+    .smallValue {
+        margin-left: 24px;
+    }
+    .btns .btn-primary{
+        height: 65px !important;
+    }
+    .hidebtnn img {
+        height: 45px;
+        width: 45px;
+    }
+    .iconArrrow {
+        bottom: -17px;
+        height: 35px;
+        width: 35px;
+    }
+    .max_value {
+        left: 43%;
+        margin-top: -35px;
+        font-size: 12px;
+    }.featureStart h2 {
+         margin-left: 16px;
+     }
+
+    .smallValue {
+        font-size: 14px;
+    }
+    .depositeZom h2 {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px){
+    .balEth span {
+        font-size: 8px;
+    }
+    .balEth:before {
+        left: 101px;
+        top: 28px;
+    }
+    .balEth:after {
+        top: 25px;
+        right: 30px;
+    }
+    .mainFeature {
+         padding: 0 0;
+     }
+    .footefixed {
+        position: relative;
+    }
+    .footerContent {
+        text-align: center;
+    }
+    .footerMenu a {
+        margin-right: 9px;
+        margin-left: 9px;
+    }
+    .footersocial {
+        text-align: center !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bgbigImg {
+        display: none;
+    }
+    .mainbody {
+        padding: 0;
+    }
+    .topNavbar .navbar-brand img {
+        width: 96px;
+    }
+    .topNavbar {
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.04);
+        margin-bottom: 40px;
+    }
+    .hiddenFeature {
+        display: block;
+    }
+    .featureStart {
+        border-radius: 32px;
+        margin-bottom: 30px;
+        padding: 30px 18px;
+    }
+    .insuraceTitle h2 {
+        font-size: 46px;
+    }
+    .insuraceTitle p {
+        font-family: 'Sofia Pro';
+        font-size: 34px;
+    }
+    .insuranceItem {
+        border-radius: 32px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .insuranceItem img {
+         height: 128px;
+         width: 128px;
+     }
+    .insuranceItem h2 {
+        font-size: 40px;
+    }
+    .insuranceItem p {
+        font-size: 20px;
+    }
+    .socialIcons img {
+        width: 58px;
+    }
+    .featureStart:hover {
+        margin-top: 0;
+        position: relative;
+    }
+    .top_bg {
+        background: none;
+    }
+
+    .footerBg {
+        background: none;
+    }
+    .inputbtn {
+        width: 128px;
+        margin-right: 8px;
+        font-size: 14px;
+        padding: 0 14px;
+    }
+    .depositeZom h2 {
+        font-size: 20px;
+    }
+    .smallValue {
+        margin-left: 7px;
+    }
+    .btns .btn-primary{
+        height: 70px;
+    }
+    .hidebtnn img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .iconArrrow {
+        bottom: -17px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .max_value {
+        left: 43%;
+        margin-top: -35px;
+        font-size: 12px;
+    }
+    .featureStart h2 {
+        margin-left: 16px;
+    }
+    .smallValue {
+        font-size: 14px;
+    }
+    .depositeZom h2 {
+        margin-top: 10px;
+    }
+}
+
+

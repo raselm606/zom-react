@@ -1,0 +1,51 @@
+body{
+margin:0;
+    padding: 0;
+}
+.App-header{
+    background: #000;
+    color: #fff;
+    padding: 40px;
+}
+.bodyarea{
+    text-align: center;
+    background: #f00;
+}
+.maintext {
+    height: calc(100vh - 267px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footerarea{
+    background: #000;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    object-fit: fill;
+}
+.ddrr{
+    background: yellow;
+}
+.ddrr {
+    background: white;
+    margin: 30px;
+    height: 370px;
+    width: 270px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.featureStart {
+    background: #FFFFFF;
+    box-shadow: 6px 11px 40px rgba(72, 89, 125, 0.16995);
+    border-radius: 15px;
+    height: 335px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
